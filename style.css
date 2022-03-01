@@ -1,0 +1,41 @@
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+
+  a:hover{
+      text-decoration: wavy;
+  }
+ 
+  
+   @media (min-width: 425px) { 
+    
+    .fontStyle{
+      font-family: 'BebasNeueRegular', sans-serif; 
+      font-weight: 500;
+      font-size:  2em;
+     }
+     
+     .logoHW{
+      height: 75px;
+      width: 100px;
+    }
+
+   }
+
+   @media (max-width: 426px){
+    .fontStyle{
+      font-family: 'BebasNeueRegular', sans-serif; 
+      font-weight: 500;
+      font-size:  1em;
+     }
+     
+     .logoHW{
+      height: 50px;
+      width: 75px;
+    }
+
+   }
